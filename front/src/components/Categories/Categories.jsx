@@ -31,7 +31,7 @@ const Categories = (props) => {
           </h3>
         </div>
       </div>
-      <div className="px-10 flex flex-wrap items-center justify-around gap-[100px]">
+      <div className="px-20 flex flex-wrap items-center justify-around gap-[100px] transition ease-out">
         {items.map((category) => {
           return (
             <div>
